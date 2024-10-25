@@ -1,5 +1,5 @@
 {
   "title": "My First Post",
   "date": "2024-10-25T19:25:00.000Z",
-  "body": "Primeira linha\n\n> quote\n\n*asdasdsada*\n\n1. *2*\n2. *2*\n3. *d*\n4. *d*\n5. *d*\n\n![asd](https://raw.githubusercontent.com/luflax/lffsdev-frontend-cms/main/public/uploads/1717505398188.jpeg \"asdasd\")\n\n`Scriptao maluco`"
+  "body": "Primeira linha\n\n> quote\n\n```\n  - name: \"posts\"\n    label: \"Posts\"\n    folder: \"content/posts\"\n    create: true\n    format: json\n    slug: \"{{slug}}\"\n    fields:\n      - {label: \"Title\", name: \"title\", widget: \"string\"}\n      - {label: \"Date\", name: \"date\", widget: \"datetime\"}\n      - {label: \"Body\", name: \"body\", widget: \"markdown\"}\n```\n\n*asdasdsada*\n\n1. *2*\n2. *2*\n3. *d*\n4. *d*\n5. *d*\n\n![asd](https://raw.githubusercontent.com/luflax/lffsdev-frontend-cms/main/public/uploads/1717505398188.jpeg \"asdasd\")\n\n`Scriptao maluco`"
 }
